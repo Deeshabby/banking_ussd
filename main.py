@@ -43,7 +43,7 @@ def ussd_banking():
                 except ValueError:
                     print("Please enter a valid number.")
         else:
-            print("Invalid USSD code. Try again.")
+            print("Invalid USSD code. Try again please.")
 
 if __name__ == "__main__":
     ussd_banking()
